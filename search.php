@@ -27,6 +27,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
+    <?php //deb_last_query();?>
     <section id="section16" class="section16">
         <div class="container">
             <div class="row">
@@ -72,5 +73,4 @@ get_header(); ?>
             </div><!-- div -->
         </div>
     </section>
-
 <?php get_footer();

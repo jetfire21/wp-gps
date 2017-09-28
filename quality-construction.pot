@@ -1,0 +1,822 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-04 09:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:53 comments.php:78
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:57 comments.php:82
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:60 comments.php:84
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr ""
+
+#: single.php:48
+msgid "Next"
+msgstr ""
+
+#: single.php:49
+msgid "Next post:"
+msgstr ""
+
+#: single.php:50
+msgid "Previous"
+msgstr ""
+
+#: single.php:51
+msgid "Previous post:"
+msgstr ""
+
+#: functions.php:46
+msgid "Primary"
+msgstr ""
+
+#: functions.php:47
+msgid "Social Link"
+msgstr ""
+
+#: functions.php:101
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:103 functions.php:131 functions.php:141 functions.php:151
+#: functions.php:162
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:110
+msgid "Home Page Widget Area"
+msgstr ""
+
+#: functions.php:112
+msgid "Add widgets here to appear in Home Page"
+msgstr ""
+
+#: functions.php:119
+msgid "Our Work Page Widget Area"
+msgstr ""
+
+#: functions.php:121
+msgid "Add widgets here to appear in  Page Widget Area"
+msgstr ""
+
+#: functions.php:129
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:139
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:149
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:160
+msgid "Footer 4"
+msgstr ""
+
+#: 404.php:15 library/breadcrumbs/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:36
+msgid "404"
+msgstr ""
+
+#: 404.php:40
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#. Name of the template
+#: inc/widget/our-work-widget.php:10
+msgid "Our Work"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:49
+msgid "Toggle navigation"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:32
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content.php:51 template-parts/content-page.php:24
+#: template-parts/content-single.php:31
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post
+#. %s: Name of current post
+#. %s: Name of current post
+#: template-parts/content-page.php:34 template-parts/content-single.php:42
+#: inc/template-tags.php:75
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/customizer-core.php:15
+msgid "Do Not Reset"
+msgstr ""
+
+#: inc/customizer-core.php:16
+msgid "Reset All"
+msgstr ""
+
+#: inc/customizer-core.php:36
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer-core.php:37
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer-core.php:57 inc/customizer-core.php:78
+#: inc/customizer-core.php:99
+msgid "Show"
+msgstr ""
+
+#: inc/customizer-core.php:58 inc/customizer-core.php:79
+#: inc/customizer-core.php:100
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer-core.php:119
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer-core.php:120
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer-core.php:121
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer-core.php:140
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer-core.php:141
+msgid "Content"
+msgstr ""
+
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:53 inc/template-tags.php:59
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:61
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:68
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: section-parts/section-top-header.php:36
+msgid "Call US "
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:244
+msgid "Browse"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:246
+msgid "Home"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:248
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: library/breadcrumbs/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. %s is the page number.
+#: library/breadcrumbs/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: library/breadcrumbs/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: library/breadcrumbs/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:758
+#: library/breadcrumbs/breadcrumbs.php:787
+#: library/breadcrumbs/breadcrumbs.php:814
+#: library/breadcrumbs/breadcrumbs.php:841
+#: library/breadcrumbs/breadcrumbs.php:1176
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:759
+#: library/breadcrumbs/breadcrumbs.php:815
+#: library/breadcrumbs/breadcrumbs.php:1180
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:760
+#: library/breadcrumbs/breadcrumbs.php:1184
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: library/breadcrumbs/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#. $id
+#. $id
+#: inc/metabox/metabox-defaults.php:49 inc/metabox/metabox-defaults.php:58
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox/metabox-defaults.php:93
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: inc/metabox/metabox-defaults.php:115
+msgid "You can set up the sidebar content"
+msgstr ""
+
+#: inc/metabox/metabox-defaults.php:117
+msgid "here"
+msgstr ""
+
+#: inc/metabox/metabox-icon.php:19
+msgid "Font Awesome class"
+msgstr ""
+
+#: inc/widget/testimonial-widget.php:20
+msgid "Quality Construction Testimonial Widget"
+msgstr ""
+
+#: inc/widget/testimonial-widget.php:21
+msgid "Quality Construction Testimonial Section"
+msgstr ""
+
+#: inc/widget/testimonial-widget.php:128 inc/widget/testimonial-widget.php:131
+#: inc/widget/recent-post-widget.php:168 inc/widget/our-work-widget.php:176
+#: inc/widget/feature-widget.php:95 inc/widget/feature-widget.php:99
+#: inc/widget/services-widget.php:152 inc/widget/services-widget.php:156
+msgid "Select Category"
+msgstr ""
+
+#: inc/widget/testimonial-widget.php:152 inc/widget/mission-widget.php:143
+msgid "Background Image"
+msgstr ""
+
+#: inc/widget/testimonial-widget.php:161 inc/widget/mission-widget.php:154
+#: inc/widget/services-widget.php:186
+msgid "Upload Image"
+msgstr ""
+
+#: inc/widget/recent-post-widget.php:11
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widget/recent-post-widget.php:22
+msgid "Quality Recent Post Widget"
+msgstr ""
+
+#: inc/widget/recent-post-widget.php:23
+msgid "Quality Construction Recent Post Section"
+msgstr ""
+
+#: inc/widget/recent-post-widget.php:114 inc/customizer/default.php:48
+msgid "Read More"
+msgstr ""
+
+#: inc/widget/recent-post-widget.php:154 inc/widget/quote-widget.php:80
+msgid "Title"
+msgstr ""
+
+#: inc/widget/recent-post-widget.php:161
+msgid "Sub Title"
+msgstr ""
+
+#: inc/widget/recent-post-widget.php:172
+msgid "From Recent Posts"
+msgstr ""
+
+#: inc/widget/mission-widget.php:9
+msgid "Learn More"
+msgstr ""
+
+#: inc/widget/mission-widget.php:20
+msgid "Quality Our Misson Page"
+msgstr ""
+
+#: inc/widget/mission-widget.php:21
+msgid " Quality Construction Our Mission Page"
+msgstr ""
+
+#: inc/widget/mission-widget.php:114 inc/widget/mission-widget.php:123
+#: inc/widget/welcome-msg-widget.php:86 inc/widget/welcome-msg-widget.php:95
+msgid "Select Page"
+msgstr ""
+
+#: inc/widget/mission-widget.php:131 inc/widget/quote-widget.php:86
+msgid "Button Text"
+msgstr ""
+
+#: inc/widget/mission-widget.php:137 inc/widget/quote-widget.php:92
+msgid "Button Link"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:11
+msgid "All"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:25
+msgid "Quality Construction Our Work Widget"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:26
+msgid "Quality Construction Work Section"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:166
+msgid "Title:"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:171
+msgid "Our Work Filter All Text"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:197
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:202
+msgid "Number of Columns:"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:214
+msgid "Select Image Size:"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:241
+msgid "2"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:242
+msgid "3"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:243
+msgid "4"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:273
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:274
+msgid "Medium"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:275
+msgid "Large"
+msgstr ""
+
+#: inc/widget/our-work-widget.php:276
+msgid "Full"
+msgstr ""
+
+#: inc/widget/welcome-msg-widget.php:18
+msgid "Quality Welcome Message"
+msgstr ""
+
+#: inc/widget/welcome-msg-widget.php:19
+msgid "Quality Construction Welcome Message"
+msgstr ""
+
+#: inc/widget/welcome-msg-widget.php:102
+msgid "Character Limit"
+msgstr ""
+
+#: inc/widget/quote-widget.php:8
+msgid "Quote"
+msgstr ""
+
+#: inc/widget/quote-widget.php:17
+msgid "Quality Quote Widget"
+msgstr ""
+
+#: inc/widget/quote-widget.php:18
+msgid "Quality Construction Quote Section"
+msgstr ""
+
+#: inc/widget/feature-widget.php:16
+msgid "Quality Feature Widget"
+msgstr ""
+
+#: inc/widget/feature-widget.php:17
+msgid "Quality Construction Feature Section"
+msgstr ""
+
+#: inc/widget/services-widget.php:19
+msgid "Quality Service Widget"
+msgstr ""
+
+#: inc/widget/services-widget.php:20
+msgid "Quality Construction Service Section"
+msgstr ""
+
+#: inc/widget/services-widget.php:177
+msgid "Image Size[243 X 470]"
+msgstr ""
+
+#: inc/customizer/quality-construction-customizer-function.php:33
+msgid "&mdash; Select Category &mdash;"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:12
+msgid " Layout/Design Option"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:24
+msgid "Default Sidebar Layout Option"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:45
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:46
+msgid ""
+"Home/front page does not have sidebar. Inner pages like blog, archive single "
+"page/post Sidebar Layout. However single page/post sidebar can be overridden."
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:65
+msgid "Blog/Archive Layout Option"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:85
+msgid "Blog Page Title"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:106
+msgid "Show Description From"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:125
+msgid "Description Length In Words"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:144
+msgid "Exclude Categories In Blog Page"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:145
+msgid ""
+"Enter categories ids with comma separated eg: 2,7,14,47. For including all "
+"categories left blank"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:165
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:180
+msgid "Feature Image Option For Single Page"
+msgstr ""
+
+#: inc/customizer/quality-construction-layout-design-options.php:203
+msgid "Show/Hide Feature Image For Single Page"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:13
+msgid "Theme Option"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:28
+msgid "Sticky Menu Options"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:45
+msgid "Remove Sticky Menu"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:63
+msgid "Color Options"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:78
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:79
+#: inc/customizer/quality-construction-theme-options.php:103
+#: inc/customizer/quality-construction-theme-options.php:127
+#: inc/customizer/quality-construction-theme-options.php:151
+msgid ""
+"We recommend choose  different  background color but not to choose similar "
+"to font color"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:102
+msgid "Top Header Background Color"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:126
+msgid "Top Footer Background Color"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:150
+msgid "Bottom Footer Background Color"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:167
+msgid "Front Page Options"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:185
+msgid "Hide Blog Posts or Static Page on Front Page"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:202
+#: inc/customizer/quality-construction-theme-options.php:222
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:243
+msgid "Show/Hide Breadcrumb in Home page"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:259
+#: inc/customizer/default.php:60
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:279
+msgid "Search Placeholder"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:296
+msgid "Color Reset Options"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:316
+msgid "Reset Options"
+msgstr ""
+
+#: inc/customizer/quality-construction-theme-options.php:317
+msgid ""
+"Caution: Reset theme settings according to the given options. Refresh the "
+"page after saving to view the effects"
+msgstr ""
+
+#: inc/customizer/quality-construction-header-info-section.php:11
+msgid "Top Header Info"
+msgstr ""
+
+#: inc/customizer/quality-construction-header-info-section.php:28
+msgid "Top Header Info Option"
+msgstr ""
+
+#: inc/customizer/quality-construction-header-info-section.php:29
+msgid "Show/hide Option for Top Header Info Section."
+msgstr ""
+
+#: inc/customizer/quality-construction-header-info-section.php:52
+#: inc/customizer/quality-construction-header-info-section.php:95
+msgid "Insert Font Awesome Class Name"
+msgstr ""
+
+#: inc/customizer/quality-construction-header-info-section.php:73
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer/quality-construction-header-info-section.php:116
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer/quality-construction-header-info-section.php:135
+msgid "Hide/Show Social Menu"
+msgstr ""
+
+#: inc/customizer/default.php:27
+msgid "Get Started!"
+msgstr ""
+
+#: inc/customizer/default.php:28 inc/customizer/customizer.php:163
+msgid "View More"
+msgstr ""
+
+#: inc/customizer/default.php:32
+msgid "Copyright All Rights Reserved"
+msgstr ""
+
+#: inc/customizer/default.php:44
+msgid "Latest Blog"
+msgstr ""
+
+#: inc/customizer/customizer.php:11
+msgid "HomePage Slider Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:23
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer/customizer.php:46
+msgid "Slider Option"
+msgstr ""
+
+#: inc/customizer/customizer.php:47
+msgid "Show/hide option for homepage Slider Section."
+msgstr ""
+
+#: inc/customizer/customizer.php:70
+msgid "Slider Category"
+msgstr ""
+
+#: inc/customizer/customizer.php:71
+msgid "Select Category for Homepage Slider Section"
+msgstr ""
+
+#: inc/customizer/customizer.php:95
+msgid "No of Slider"
+msgstr ""
+
+#: inc/customizer/customizer.php:117
+msgid "Get Started Button"
+msgstr ""
+
+#: inc/customizer/customizer.php:138
+msgid "Get Started Button Link"
+msgstr ""
+
+#: inc/customizer/customizer.php:139
+msgid "Use full url link"
+msgstr ""
+
+#: inc/customizer/quality-construction-copy-right.php:13
+msgid "Footer Option"
+msgstr ""
+
+#: inc/customizer/quality-construction-copy-right.php:33
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/customizer-pro/class-customize.php:76
+msgid "Premium Verison"
+msgstr ""
+
+#: inc/customizer/customizer-pro/class-customize.php:77
+msgid "Upgrade To Pro"
+msgstr ""
+
+#. Name of the theme
+msgid "Quality Construction"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Quality Construction is an attractive, modern, easy to use and responsive "
+"WordPress theme with colorful design and stunning flexibility. This theme is "
+"capable of tackling the overall needs of all construction websites including "
+"business and others.  Quality Construction can also be used for business and "
+"corporate websites. The advanced theme options and available various widgets "
+"with drag and drop features will help to customize your site as your need.  "
+"Some of the available options are awesome slider section, header options, "
+"footer options, layout design options Color options, widget options, custom "
+"copyright options integrated social icons using menu, reset color option and "
+"lots of other available options will allow you to create unique website as "
+"you want. This theme will help you to create very high quality construction "
+"website easily with no time at all. Demo: http://demo.canyonthemes."
+"com/quality-construction/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.canyonthemes.com/downloads/quality-construction"
+msgstr ""
+
+#. Author of the theme
+msgid "canyonthemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.canyonthemes.com"
+msgstr ""

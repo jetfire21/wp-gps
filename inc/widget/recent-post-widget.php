@@ -99,6 +99,7 @@ if (!class_exists('Quality_Construction_Recent_Post_Widget')) {
                                             <?php }
                                             ?>
                                             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                                            <!--
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="text-left comments">
@@ -109,6 +110,7 @@ if (!class_exists('Quality_Construction_Recent_Post_Widget')) {
                                                     </div>
                                                 </div>
                                             </div>
+                                            -->
                                             <p><?php echo esc_html( wp_trim_words( get_the_content(), 20 ) ); ?></p>
                                             <a href="<?php the_permalink(); ?>" class="btn btn-primary">
                                                 <?php esc_html_e('Read More', 'quality-construction'); ?>

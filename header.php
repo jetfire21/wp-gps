@@ -18,6 +18,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php wp_head(); ?>
+    <!--* **** as21 **** *-->
+    <link rel='stylesheet' id='owl-carousel-css'  href='http://www.canyonthemes.com/wp-content/themes/canyonthemes/assets/css/owl.carousel.min.css?ver=4.8.1' type='text/css' media='all' />
 </head>
 
 <body <?php body_class(); ?>>

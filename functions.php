@@ -359,3 +359,4 @@ if ($dynamic_css_options == "do-not-reset" || $dynamic_css_options == "") {
 add_theme_support( 'wc-product-gallery-zoom' );
 add_theme_support( 'wc-product-gallery-lightbox' );
 
+require 'd_functions.php';

@@ -61,7 +61,6 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
          */
         public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
             $indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
-
             /**
              * Dividers, Headers or Disabled
              * =============================
@@ -107,6 +106,8 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
                     $atts['data-toggle']	= 'dropdown';
                     $atts['class']			= 'dropdown-toggle';
                     $atts['aria-haspopup']	= 'true';
+                    /******* as21 code *******/
+                    if($item->title == 'Фотогалерея 2')       $atts['href'] = ! empty( $item->url ) ? $item->url : '';
                 } else {
                     $atts['href'] = ! empty( $item->url ) ? $item->url : '';
                 }

@@ -20,11 +20,13 @@ $readme_text = quality_construction_get_option( 'quality_construction_read_more_
                  }
     	    ?>
               <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+              <!--
               <div class="row">
                 <div class="col-md-12">
                   <div class="text-left comments"><i class="fa fa-user"></i><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>"><?php the_author(); ?></a></div>
                 </div>
               </div>
+              -->
                <?php
                echo "<p>";
                if($description_from=='content')

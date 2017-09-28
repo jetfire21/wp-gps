@@ -10,7 +10,8 @@ Designed By: Canyon Themes
     .carousel-inner>.item > .carousel-caption > h1 {
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 55px;
+        /*font-size: 55px;*/
+        font-size: 45px;
         line-height: 1em;
         margin-bottom: 50px;
     }

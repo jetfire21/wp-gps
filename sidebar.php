@@ -22,3 +22,22 @@ if ( ! is_active_sidebar( 'sidebar-1' ) || 'no-sidebar' == $sidebar_design_layou
 <aside id="secondary" class="widget-area" role="complementary">
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </aside><!-- #secondary -->
+
+<?php
+
+$top_catid = as21_get_top_parent_id();
+if($top_catid > 0){
+	$sub_cats = as21_wc_get_categories($top_catid);
+	if($sub_cats):
+		// alex_debug( 0,1,'',$sub_cats);
+		echo '<aside class="widget-area widget sidebar-list-cats"><h2 class="widget-title">Каталог запчастей</h2>';
+		$i = 1;
+		foreach ($sub_cats as $subcat) {
+			echo '<a href="'.get_term_link( $subcat, 'product_cat' ).'">'.$subcat->name.'</a>';
+			// if($i%2==0) echo "<br>";
+			$i++;
+		}
+		echo '</aside>';
+	endif;
+}
+?>

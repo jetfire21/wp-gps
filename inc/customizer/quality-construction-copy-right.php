@@ -35,4 +35,21 @@ $wp_customize->add_control(
         'priority' => 8
     )
 );
+/* **** as21 **** */
+$wp_customize->add_setting(
+    'quality_construction_copyright_en',
+    array(
+        'default' => $default['quality_construction_copyright'],
+        'sanitize_callback' => 'wp_kses_post',
+    )
+);
+$wp_customize->add_control(
+    'quality_construction_copyright_en',
+    array(
+        'type' => 'text',
+        'label' => esc_html__('Copyright (англ. вер)', 'quality-construction'),
+        'section' => 'quality_construction_copyright_info_section',
+        'priority' => 10
+    )
+);
 

@@ -36,7 +36,7 @@ if( !class_exists( 'Quality_Construction_Feature_Widget') ){
                                     'ignore_sticky_posts' => true,
                                     'post__not_in' => $sticky,
                                     'cat' => $catid,
-                                    'posts_per_page' => 3
+                                    'posts_per_page' => 6
                                 );
                                 $home_feature_section_query = new WP_Query( $home_feature_section );
                                 if ( $home_feature_section_query->have_posts() ) {

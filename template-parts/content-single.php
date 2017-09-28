@@ -22,9 +22,11 @@ $hide_show_feature_image=quality_construction_get_option( 'quality_construction_
               <?php } 
               ?>
               <h3 class="clearfix"><?php the_title(); ?></h3>
+              <!--
               <div class="text-left comments ">
                   <i class="fa fa-user"></i><a href="<?php echo esc_url( get_author_posts_url(get_the_author_meta('ID')) ); ?> "><?php the_author(); ?></a>
               </div>
+              -->
               <div class="post-des">
                 <?php the_content(); 
                     wp_link_pages( array(

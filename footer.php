@@ -48,7 +48,10 @@ if (is_active_sidebar('footer-1') || is_active_sidebar('footer-2') || is_active_
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="copyright"><?php echo wp_kses_post($copyright); ?></div>
+                <div class="copyright">
+                <?php 
+                if(as21_check_en_lg()) echo quality_construction_get_option('quality_construction_copyright_en');
+                else echo wp_kses_post($copyright);?></div>
             </div>
         </div>
     </div>
